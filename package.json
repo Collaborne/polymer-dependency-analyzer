@@ -1,0 +1,26 @@
+{
+  "name": "polymer-dependency-analyzer",
+  "version": "1.0.0",
+  "description": "Tool for producing dependency graphs and related output for a Polymer (1.x) application",
+  "main": "index.js",
+  "bin": "bin/polymer-dependency-analyzer.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collaborne/polymer-dependency-analyzer.git"
+  },
+  "keywords": [
+    "polymer",
+    "hydrolysis",
+    "visualization"
+  ],
+  "author": "Collaborne B.V. <http://github.com/Collaborne/>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Collaborne/polymer-dependency-analyzer/issues"
+  },
+  "homepage": "https://github.com/Collaborne/polymer-dependency-analyzer#readme",
+  "dependencies": {
+    "command-line-args": "^2.1.6",
+    "hydrolysis": "^1.22.0"
+  }
+}
